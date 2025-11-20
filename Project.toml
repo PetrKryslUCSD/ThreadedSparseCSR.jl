@@ -1,7 +1,7 @@
 name = "ThreadedSparseCSR"
 uuid = "39591389-4884-462a-89e7-9edfce40b6eb"
 authors = ["Bruno Amorim <amorim.bac@gmail.com> and contributors"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -10,8 +10,8 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
 
 [compat]
-julia = "1.5"
-Polyester = "0.5"
+julia = "1.11"
+Polyester = "0.7"
 SparseMatricesCSR = "0.6"
 
 [extras]
